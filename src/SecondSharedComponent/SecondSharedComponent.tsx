@@ -14,7 +14,7 @@ export class SecondSharedComponent extends Component {
 
     return (
       <div style={styles}>
-        Second Shared Component
+        Second Shared Component from feature branch
       </div>
     );
   }
