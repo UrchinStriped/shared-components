@@ -12,10 +12,6 @@ export class FirstSharedComponent extends Component {
       fontSize: 18,
     };
 
-    return (
-      <div style={styles}>
-        First Shared Component
-      </div>
-    );
+    return <div style={styles}>First Shared Component</div>;
   }
 }

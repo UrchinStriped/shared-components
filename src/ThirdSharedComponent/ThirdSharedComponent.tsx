@@ -12,10 +12,6 @@ export class ThirdSharedComponent extends Component {
       fontSize: 18,
     };
 
-    return (
-      <div style={styles}>
-        Third Shared Component
-      </div>
-    );
+    return <div style={styles}>Third Shared Component</div>;
   }
 }
