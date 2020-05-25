@@ -10,6 +10,7 @@ export class FirstSharedComponent extends Component {
       width: 400,
       textAlign: 'center' as any,
       fontSize: 18,
+      backgroundColor: '#a0f0ff',
     };
 
     return <div style={styles}>First Shared Component</div>;
