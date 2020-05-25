@@ -10,6 +10,7 @@ export class ThirdSharedComponent extends Component {
       width: 400,
       textAlign: 'center' as any,
       fontSize: 18,
+      backgroundColor: '#e2ffa7',
     };
 
     return <div style={styles}>Third Shared Component from feature branch</div>;
