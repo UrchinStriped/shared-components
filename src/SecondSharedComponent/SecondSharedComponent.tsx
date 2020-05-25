@@ -12,10 +12,6 @@ export class SecondSharedComponent extends Component {
       fontSize: 18,
     };
 
-    return (
-      <div style={styles}>
-        Second Shared Component from feature branch
-      </div>
-    );
+    return <div style={styles}>Second Shared Component from feature branch</div>;
   }
 }
